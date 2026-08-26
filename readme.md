@@ -1,6 +1,6 @@
 
 
-# Firebase + Supabase
+# Firebase Realtime + Supabase
 
 Pequena aplicação de exemplo que demonstra operações CRUD (Criar, Ler, Atualizar, Excluir) usando Firebase Realtime Database com uma interface HTML/JavaScript simples.
 
@@ -11,7 +11,8 @@ Pequena aplicação de exemplo que demonstra operações CRUD (Criar, Ler, Atual
 
 ## Principais arquivos
 - `public/index.html` — interface web.
-- `public/main.js` — lógica do frontend e configuração do Firebase.
+- `public/index.js` — lógica CRUD usando **Supabase** (versão atual, referenciada pelo `index.html`).
+- `public/main.js` — lógica CRUD usando **Firebase Realtime Database** (versão anterior).
 - `database.rules.json` — regras do Realtime Database.
 - `firebase.json` / `.firebaserc` — configuração do Firebase hosting/emuladores.
 
@@ -50,6 +51,7 @@ Observação: confirme o projeto selecionado (`firebase use`) antes do deploy.
 ## Estrutura sugerida
 - public/
   - index.html
+  - index.js
   - main.js
 - database.rules.json
 - firebase.json
