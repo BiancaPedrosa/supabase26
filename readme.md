@@ -1,6 +1,6 @@
 
 
-# Realtime Firebase — Demo (2025.2)
+# Firebase + Supabase
 
 Pequena aplicação de exemplo que demonstra operações CRUD (Criar, Ler, Atualizar, Excluir) usando Firebase Realtime Database com uma interface HTML/JavaScript simples.
 
@@ -28,7 +28,7 @@ Pequena aplicação de exemplo que demonstra operações CRUD (Criar, Ler, Atual
 ## Configuração local
 1. Clone o repositório:
    git clone <URL-do-repositório>
-   cd realtime252
+   cd supabase26
 2. Faça login no Firebase e selecione o projeto:
    firebase login
    firebase use --add
